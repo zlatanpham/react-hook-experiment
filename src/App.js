@@ -6,13 +6,16 @@ import "./App.css";
 // import UseBoolean from "./hooks/UseBoolean";
 // import UseInput from "./hooks/UseInput";
 // import UseMountUnmount from "./hooks/UseMountUnmount";
-import UseActive from "./hooks/UseActive";
+// import UseActive from "./hooks/UseActive";
+// import UseInterval from "./hooks/UseInterval";
+// import UseAsync from "./hooks/UseAsync";
+import UseBattery from "./hooks/UseBattery";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UseActive />
+        <UseBattery />
       </div>
     );
   }

@@ -1,25 +1,18 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+// import UseReducer from "./hooks/UseReducer";
+// import UseRef from "./hooks/UseRef";
+// import UseArray from "./hooks/UseArray";
+// import UseBoolean from "./hooks/UseBoolean";
+// import UseInput from "./hooks/UseInput";
+// import UseMountUnmount from "./hooks/UseMountUnmount";
+import UseActive from "./hooks/UseActive";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <UseActive />
       </div>
     );
   }

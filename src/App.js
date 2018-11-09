@@ -9,13 +9,15 @@ import "./App.css";
 // import UseActive from "./hooks/UseActive";
 // import UseInterval from "./hooks/UseInterval";
 // import UseAsync from "./hooks/UseAsync";
-import UseBattery from "./hooks/UseBattery";
+// import UseBattery from "./hooks/UseBattery";
+// import UseGeolocation from "./hooks/UseGeolocation";
+import UseHover from "./hooks/UseHover";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UseBattery />
+        <UseHover />
       </div>
     );
   }

@@ -25,6 +25,10 @@ const useIntersection = node => {
     const observer = new IntersectionObserver(callback, options);
 
     observer.observe(node.current);
+
+    return () => {
+      observer.unobserve(node.current);
+    };
   }, []);
 
   return state;

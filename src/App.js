@@ -14,13 +14,14 @@ import "./App.css";
 // import UseHover from "./hooks/UseHover";
 // import UseMedia from "./hooks/UseMedia";
 // import UseRaf from "./hooks/UseRaf";
-import UseWindowMousePosition from "./hooks/UseWindowMousePosition";
+// import UseWindowMousePosition from "./hooks/UseWindowMousePosition";
+import UseIntersection from "./hooks/UseIntersection";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UseWindowMousePosition />
+        <UseIntersection />
       </div>
     );
   }

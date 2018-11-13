@@ -15,13 +15,14 @@ import "./App.css";
 // import UseMedia from "./hooks/UseMedia";
 // import UseRaf from "./hooks/UseRaf";
 // import UseWindowMousePosition from "./hooks/UseWindowMousePosition";
-import UseIntersection from "./hooks/UseIntersection";
+// import UseIntersection from "./hooks/UseIntersection";
+import UseTabs from "./hooks/UseTabs";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UseIntersection />
+        <UseTabs />
       </div>
     );
   }
